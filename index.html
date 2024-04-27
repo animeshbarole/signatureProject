@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Signature Generator</title>
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <h1>Signature Generator</h1>
+    <div class="controls-container">
+        <label for="colorPicker">Select Color:</label>
+        <input type="color" id="colorPicker" value="#000000">
+        <label for="penSize">Pen Size:</label>
+        <input type="number" id="penSize" min="1" max="20" value="2">
+        <button id="clearBtn">Clear</button>
+        <button id="downloadBtn">Download Signature</button>
+    </div>
+    <canvas id="signatureCanvas" width="400" height="200"></canvas>
+
+<script src="main.js"></script>
+</body>
+</html>
